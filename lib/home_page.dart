@@ -20,7 +20,7 @@ class _HomePageState extends State<HomePage> {
     http.Response responseAll;
     if (_search == null) {
       responseAll = await http.get(Uri.parse(
-          "https://api.giphy.com/v1/gifs/trending?api_key=GLKNfVSLHaaRmOQ4fDdKYNLYQrUuk151&limit=20&rating=g"));
+          "https://api.giphy.com/v1/gifs/trending?api_key=GLKNfVSLHaaRmOQ4fDdKYNLYQrUuk151&limit=30&rating=g"));
     }
     else {
         
